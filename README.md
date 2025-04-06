@@ -1,7 +1,5 @@
 # AWS-Infrastructure-With-Terraform-Project
 
-AWS Infrastructure Automation with Terraform
-
 Overview
 
 This project automates the deployment of a scalable and secure AWS infrastructure using Terraform. It provisions key AWS services including VPC, EC2 instances, an Application Load Balancer (ALB), RDS, and Auto Scaling Groups.
