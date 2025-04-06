@@ -3,7 +3,7 @@ variable "ENVIRONMENT" {
     type    = string
     default = "Testing"
 }
-# Amazon Linux in us-east-1 and ubuntu in others
+# Amazon Linux in us and ubuntu in others Region
 variable "AMIS" {
     type = map
     default = {
