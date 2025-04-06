@@ -73,8 +73,7 @@ Folder Structure
       ├── modules
       │   ├── vpc
       │   ├── rds
-      │   └── webserver
+      │── webserver
       ├── main.tf
-      ├── variables.tf
-      ├── outputs.tf
+      ├── variable.tf
       ├── README.md
