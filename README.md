@@ -41,37 +41,38 @@ Deployment Steps
 Clone the repository:
 
 git clone https://github.com/yourusername/aws-terraform-project.git
+
 cd aws-terraform-project
 
 Initialize Terraform:
 
-terraform init
+  terraform init
 
 Preview the infrastructure changes:
 
-terraform plan
+  terraform plan
 
 Deploy the infrastructure:
 
-terraform apply -auto-approve
+  terraform apply -auto-approve
 
 Retrieve the Load Balancer DNS to access the deployed application:
 
-terraform output load_balancer_output
+   terraform output load_balancer_output
 
 Cleanup
 
 To remove all resources and prevent ongoing costs:
 
-terraform destroy -auto-approve
+  terraform destroy -auto-approve
 
 Folder Structure
-.
-├── modules
-│   ├── vpc
-│   ├── rds
-│   └── webserver
-├── main.tf
-├── variables.tf
-├── outputs.tf
-├── README.md
+      .
+      ├── modules
+      │   ├── vpc
+      │   ├── rds
+      │   └── webserver
+      ├── main.tf
+      ├── variables.tf
+      ├── outputs.tf
+      ├── README.md
