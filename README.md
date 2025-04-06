@@ -67,6 +67,8 @@ To remove all resources and prevent ongoing costs:
   terraform destroy -auto-approve
 
 Folder Structure
+
+
       .
       ├── modules
       │   ├── vpc
