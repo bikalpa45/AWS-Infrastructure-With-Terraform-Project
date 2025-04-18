@@ -40,7 +40,7 @@ Deployment Steps
 
 Clone the repository:
 
-git clone https://github.com/yourusername/aws-terraform-project.git
+git clone https://github.com/bikalpa45/AWS-Infrastructure-With-Terraform-Project.git
 
 cd aws-terraform-project
 
